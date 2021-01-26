@@ -13,4 +13,7 @@ publish:
 package-install:
 		python3 -m pip install dist/*.whl
 
-.PHONY: install build publish
+lint:
+		poetry run flake8 brain_games
+
+.PHONY: install build publish lint
