@@ -15,7 +15,7 @@ jobs:
         run: |
           python3 -m venv $HOME/.poetry.venv
           $HOME/.poetry.venv/bin/pip install poetry
-          ln -s $HOME/.poetry.venv/bin/poetry $HOME/.local/bin
+        # ln -s $HOME/.poetry.venv/bin/poetry $HOME/.local/bin
         # run: curl -sSL https://raw.githubusercontent.com/python-poetry/poetry/master/get-poetry.py | python -
       - name: Check Poetry Installation
         run: poetry --version
