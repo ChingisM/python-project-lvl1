@@ -12,7 +12,11 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2.3.4
       - name: Install Poetry
-        run: curl -sSL https://raw.githubusercontent.com/python-poetry/poetry/master/get-poetry.py | python -
+        run: |
+          python3 -m venv $HOME/.poetry.venv
+          $HOME/.poetry.venv/bin/pip install poetry
+          ln -s $HOME/.poetry.venv/bin/poetry $HOME/.local/bin
+        # run: curl -sSL https://raw.githubusercontent.com/python-poetry/poetry/master/get-poetry.py | python -
       - name: Check Poetry Installation
         run: poetry --version
       - name: Install dependencies
