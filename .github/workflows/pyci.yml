@@ -12,9 +12,8 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2.3.4
       - name: Install dependencies
-        run: |
-          python get-poetry.py --preview -y
-          # pip install poetry
-          make install
+        run: pip install poetry
+      - name: Install dependencies
+        run: make install
       - name: Run linter
         run: make lint
