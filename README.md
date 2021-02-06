@@ -5,14 +5,14 @@
 [![Actions Status](https://github.com/ChingisM/python-project-lvl1/workflows/hexlet-check/badge.svg)](https://github.com/ChingisM/python-project-lvl1/actions)
 
 # Description
-This is package for the "Brain games" project.
-The user is shown simple math questions, and the user must give the right answer.
-Three right answers win the game.
-"brain-even" game is for checking if the random generated number is even.
-"brain-calc" game is for counting arithmetic expressions.
-"brain-gcd" game is for finding the GCD (Greatest Common Divisor) of two random numbers.
-"brain-progression" game is for finding a missing element in the random arithmetic progression.
-"brain-prime" game is for checking if the random generated number is prime.
+<p>This is package for the "Brain games" project.</p>
+<p>The user is shown simple math questions, and the user must give the right answer.</p>
+<p>Three right answers win the game.</p>
+<p>"brain-even" game is for checking if the random generated number is even.</p>
+<p>"brain-calc" game is for counting arithmetic expressions.</p>
+<p>"brain-gcd" game is for finding the GCD (Greatest Common Divisor) of two random numbers.</p>
+<p>"brain-progression" game is for finding a missing element in the random arithmetic progression.</p>
+<p>"brain-prime" game is for checking if the random generated number is prime.</p>
 
 "brain-even" asciinema:
 <a href="https://asciinema.org/a/389550" target="_blank"><img src="https://asciinema.org/a/389550.svg" /></a>
