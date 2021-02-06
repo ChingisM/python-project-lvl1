@@ -14,6 +14,7 @@
 <p>"brain-progression" game is for finding a missing element in the random arithmetic progression.</p>
 <p>"brain-prime" game is for checking if the random generated number is prime.</p>
 
+
 "brain-even" asciinema:
 <a href="https://asciinema.org/a/389550" target="_blank"><img src="https://asciinema.org/a/389550.svg" /></a>
 
