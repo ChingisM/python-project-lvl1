@@ -4,6 +4,7 @@
 ### Hexlet tests and linter status:
 <a href="https://github.com/ChingisM/python-project-lvl1/actions">
 <img src="https://github.com/ChingisM/python-project-lvl1/workflows/hexlet-check/badge.svg"></a>
+
 [![Actions Status](https://github.com/ChingisM/python-project-lvl1/workflows/hexlet-check/badge.svg)](https://github.com/ChingisM/python-project-lvl1/actions)
 
 # Description
