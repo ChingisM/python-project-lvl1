@@ -1,9 +1,7 @@
 import random
 
-
-def question_generating():
-    """Return a random generated number."""
-    return random.randint(2, 100)
+# Description for the brain-game engine.
+DESCRIPTION = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
 
 def is_prime(number):
@@ -13,11 +11,8 @@ def is_prime(number):
     return i == number
 
 
-def round_generating():
-    question = question_generating()
+def generate_round():
+    question = random.randint(2, 100)
     answer = 'yes' if is_prime(question) else 'no'
-    return [question,
-            answer]
-
-
-DESCRIPTION = 'Answer "yes" if given number is prime. Otherwise answer "no".'
+    return (question,
+            answer)
