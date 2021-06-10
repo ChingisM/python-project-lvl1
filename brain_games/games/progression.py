@@ -17,7 +17,8 @@ def generate_progression(start, diff, length):
 def generate_round():
     """Return generated question and answer for a round
     in the brain-game engine."""
-    start, diff, length = random.randint(1, 25), random.randint(2, 9), random.choice([5, 6, 7, 8, 9, 10])
+    start, diff, length = \
+        random.randint(1, 25), random.randint(2, 9), random.choice([5, 6, 7, 8, 9, 10])
     progression = generate_progression(start, diff, length)
     index_of_element = random.randint(0, length - 1)
     required_element = progression[index_of_element]
