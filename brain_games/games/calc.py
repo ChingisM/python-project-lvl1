@@ -12,7 +12,7 @@ def calculate_result(num1, num2, operator):
         result = num1 - num2
     else:
         result = num1 * num2
-    return str(result)
+    return result
 
 
 def generate_round():
@@ -21,6 +21,6 @@ def generate_round():
     num1, num2 = random.randint(11, 20), random.randint(1, 10)
     operator = random.choice(['+', '-', '*'])
     question = str(num1) + ' ' + operator + ' ' + str(num2)
-    answer = calculate_result(num1, num2, operator)
+    answer = str(calculate_result(num1, num2, operator))
     return (question,
             answer)
